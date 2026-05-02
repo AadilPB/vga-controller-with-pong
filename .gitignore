@@ -40,3 +40,6 @@ write.txt
 *.xrpt
 *.csv
 *.html
+*.xml
+*.ini
+*.mrp
