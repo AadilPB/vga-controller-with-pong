@@ -1,4 +1,0 @@
-vhdl work "ipcore_dir/icon.vhd"
-vhdl work "ipcore_dir/ila.vhd"
-vhdl work "VGAController.vhd"
-vhdl work "VGAController_TB.vhd"

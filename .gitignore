@@ -46,3 +46,6 @@ write.txt
 *_pad.txt
 *.xmsgs
 *.xsl
+*_beh.prj
+*_stx_beh.prj
+pepExtractor.prj
