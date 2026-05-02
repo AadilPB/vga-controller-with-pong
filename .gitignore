@@ -1,7 +1,7 @@
 _ngo/
 iseconfig/
 xlnx_auto_0_xdb/
-_xmsgs
+_xmsgs/
 ipcore_dir/
 isim/
 xst/
@@ -43,3 +43,6 @@ write.txt
 *.xml
 *.ini
 *.mrp
+*_pad.txt
+*.xmsgs
+*.xsl
