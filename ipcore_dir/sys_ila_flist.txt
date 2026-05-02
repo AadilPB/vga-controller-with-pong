@@ -1,0 +1,14 @@
+# Output products list for <sys_ila>
+_xmsgs/pn_parser.xmsgs
+sys_ila.asy
+sys_ila.cdc
+sys_ila.gise
+sys_ila.ngc
+sys_ila.sym
+sys_ila.vhd
+sys_ila.vho
+sys_ila.xco
+sys_ila.xise
+sys_ila_flist.txt
+sys_ila_readme.txt
+sys_ila_xmdf.tcl

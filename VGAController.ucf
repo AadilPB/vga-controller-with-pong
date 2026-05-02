@@ -1,0 +1,45 @@
+# 50 MHz input clock.
+NET "clk" LOC = "c9";
+
+# Synchronization signals.
+NET "h_sync" LOC = "c5";
+NET "v_sync" LOC = "d5";
+
+# Pixel clock for the video DAC.
+NET "DAC_clk" LOC = "a4";
+
+# Blue channel pins.
+NET "B<7>" LOC = "b16";
+NET "B<6>" LOC = "a16";
+NET "B<5>" LOC = "d14";
+NET "B<4>" LOC = "c14";
+NET "B<3>" LOC = "b14";
+NET "B<2>" LOC = "a14";
+NET "B<1>" LOC = "b13";
+NET "B<0>" LOC = "a13";
+
+# Green channel pins.
+NET "G<0>" LOC = "f9";
+NET "G<1>" LOC = "e9";
+NET "G<2>" LOC = "d11";
+NET "G<3>" LOC = "c11";
+NET "G<4>" LOC = "f11";
+NET "G<5>" LOC = "e11";
+NET "G<6>" LOC = "e12";
+NET "G<7>" LOC = "f12";
+
+# Red channel pins.
+NET "R<0>" LOC = "a6";
+NET "R<1>" LOC = "b6";
+NET "R<2>" LOC = "e7";
+NET "R<3>" LOC = "f7";
+NET "R<4>" LOC = "d7";
+NET "R<5>" LOC = "c7";
+NET "R<6>" LOC = "f8";
+NET "R<7>" LOC = "e8";
+
+# On-board switches.
+NET "sw<0>" LOC = "N17";
+NET "sw<1>" LOC = "H18";
+NET "sw<2>" LOC = "L14";
+NET "sw<3>" LOC = "L13";

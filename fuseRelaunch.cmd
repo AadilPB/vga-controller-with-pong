@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/student1/a2bholat/coe758/VGAController/VGAController_TB_isim_beh.exe" -prj "/home/student1/a2bholat/coe758/VGAController/VGAController_TB_beh.prj" "work.VGAController_TB" 

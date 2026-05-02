@@ -1,0 +1,6 @@
+EN vgacontroller NULL /home/student1/a2bholat/coe758/VGAController/VGAController.vhd sub00/vhpl00 1763502739
+AR ila ila_a /home/student1/a2bholat/coe758/VGAController/ipcore_dir/ila.vhd sub00/vhpl05 1763502738
+AR icon icon_a /home/student1/a2bholat/coe758/VGAController/ipcore_dir/icon.vhd sub00/vhpl03 1763502736
+EN icon NULL /home/student1/a2bholat/coe758/VGAController/ipcore_dir/icon.vhd sub00/vhpl02 1763502735
+AR vgacontroller behavioral /home/student1/a2bholat/coe758/VGAController/VGAController.vhd sub00/vhpl01 1763502740
+EN ila NULL /home/student1/a2bholat/coe758/VGAController/ipcore_dir/ila.vhd sub00/vhpl04 1763502737

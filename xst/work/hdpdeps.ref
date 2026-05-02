@@ -1,0 +1,23 @@
+V3 11
+FL /home/student1/a2bholat/coe758/VGAController/ipcore_dir/icon.vhd 2025/11/17.14:49:24 O.87xd
+EN work/icon 1763502735 \
+      FL /home/student1/a2bholat/coe758/VGAController/ipcore_dir/icon.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/icon/icon_a 1763502736 \
+      FL /home/student1/a2bholat/coe758/VGAController/ipcore_dir/icon.vhd \
+      EN work/icon 1763502735
+FL /home/student1/a2bholat/coe758/VGAController/ipcore_dir/ila.vhd 2025/11/18.15:37:42 O.87xd
+EN work/ila 1763502737 \
+      FL /home/student1/a2bholat/coe758/VGAController/ipcore_dir/ila.vhd \
+      PB ieee/std_logic_1164 1325952872
+AR work/ila/ila_a 1763502738 \
+      FL /home/student1/a2bholat/coe758/VGAController/ipcore_dir/ila.vhd \
+      EN work/ila 1763502737
+FL /home/student1/a2bholat/coe758/VGAController/VGAController.vhd 2025/11/18.16:52:12 O.87xd
+EN work/VGAController 1763502739 \
+      FL /home/student1/a2bholat/coe758/VGAController/VGAController.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/STD_LOGIC_UNSIGNED 1325952875 \
+      PB ieee/NUMERIC_STD 1325952877
+AR work/VGAController/Behavioral 1763502740 \
+      FL /home/student1/a2bholat/coe758/VGAController/VGAController.vhd \
+      EN work/VGAController 1763502739 CP icon CP ila

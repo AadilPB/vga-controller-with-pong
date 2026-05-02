@@ -1,0 +1,3 @@
+work	"VGAController.vhd"
+work	"ipcore_dir/icon.vhd"
+work	"ipcore_dir/ila.vhd"

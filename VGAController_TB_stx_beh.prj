@@ -1,0 +1,4 @@
+vhdl isim_temp "ipcore_dir/icon.vhd"
+vhdl isim_temp "ipcore_dir/ila.vhd"
+vhdl isim_temp "VGAController.vhd"
+vhdl isim_temp "VGAController_TB.vhd"
