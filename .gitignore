@@ -17,3 +17,16 @@ xlnx_auto_0_xdb/
 *.gise
 *.bit
 write.txt
+*.bld
+*.cpj
+*.iso
+*.ngr
+*.pad
+*.par
+*.ptwx
+*.stx
+*.syr
+*.twr
+*.twx
+*.wdb
+*.exe
