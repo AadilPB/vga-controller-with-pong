@@ -33,7 +33,22 @@ $$800 \times 525 \times 60 = 25,200,000 Hz \approx 25\ MHz$$
 
 Where the total pixel count represents every pixel the controller must clock through in a single frame, including both the active display and blanking regions, multiplied by the refresh rate, which provides the number of pixels that must be driven per second. As the Spartan-3E runs at 50 MHz, this is achieved through a clock divider, which divides the onboard clock by toggling on every rising edge of the 50 MHz FPGA clock, producing a 25 MHz pixel clock. 
 
-The game of pong features two types of elements, static and dynamic. Static elements can be drawn 
+The game of pong features two types of elements, static and dynamic. Static elements do not move, and are drawn the same every frame, the border and middle dashed line are the only static elements of the Pong game. The dynamic elements in the Pong game are the ball and the two paddles on the right and left side of the screen. Dynamic elements move, requiring extra logic to ensure smooth movement and so they don't behave unexpectedly, like teleporting across the screen or screen tearing. To ensure smooth movement, the dynamic elements must update every frame, which requires them to wait for a frame to complete before updating. This was found using the following calculation: 
+
+$$Input\ Delay\ Tick\ Counter = Pixel\ Clock\ Rate \div Refresh\ Rate$$
+$$25 MHz \div 60 Hz = 416,666\ Clock\ Cycles$$
+
+Where the number of clock cycles required per frame are found by dividing the pixel clock rate by the refresh rate. This is then used in a counter, where once the counter reaches 416,666 cycles, a tick signal is set to 1, and the game logic updates, and then reset for the next frame. The paddles are controlled using four switches found on the FPGA, two per paddle, one switch to move the paddle up and one switch to move the paddle down. The specific ball logic and how it interacts with all of the elements in the game can be found in the process diagram in the Architecture section.  
+
 ## Architecture
+The symbol and block diagrams below show the general architecture of this system. The FPGA provides the switch and clock inputs to the VGA controller, which in turn provides the RGB, h_sync, v_sync and pixel clock signals to the VGA monitor to produce the image. 
+
+<img width="1081" height="1118" alt="image" src="https://github.com/user-attachments/assets/20c2ea85-509f-4b9d-b449-276066f87955" />
+
+*Symbol and block diagrams for the VGA controller, FPGA (with all relevant inputs and outputs) and VGA monitor*
+
+<img width="985" height="1113" alt="image" src="https://github.com/user-attachments/assets/2c8fc02a-1082-4189-9e75-9f89a895a32e" />
+
+*Process diagram for the ball logic in the game of Pong*
 
 ## Results
