@@ -47,6 +47,8 @@ The symbol and block diagrams below show the general architecture of this system
 
 *Symbol and block diagrams for the VGA controller, FPGA (with all relevant inputs and outputs) and VGA monitor*
 
+The process diagram below shows the ball logic, including movement, collision detection, and bouncing behaviour. 
+
 <img width="985" height="1113" alt="image" src="https://github.com/user-attachments/assets/2c8fc02a-1082-4189-9e75-9f89a895a32e" />
 
 *Process diagram for the ball logic in the game of Pong*
