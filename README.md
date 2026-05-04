@@ -54,3 +54,25 @@ The process diagram below shows the ball logic, including movement, collision de
 *Process diagram for the ball logic in the game of Pong*
 
 ## Results
+Below are images that show the game of pong on the VGA display.
+
+<img width="1056" height="913" alt="image" src="https://github.com/user-attachments/assets/89ba4c56-c946-4d58-bfe8-fa8d1158f893" />
+
+*Pong with the ball in the bottom right corner*
+
+<img width="1107" height="858" alt="image" src="https://github.com/user-attachments/assets/9621638d-e9da-438b-9135-d28f9fa7569f" />
+
+*Pong with the ball about to hit the paddle*
+
+<img width="1028" height="787" alt="image" src="https://github.com/user-attachments/assets/8a15302f-2cd9-47bf-8753-d8e9b7bbc94d" />
+
+*Pong with the ball about to score*
+
+<img width="1120" height="863" alt="image" src="https://github.com/user-attachments/assets/4aa03a99-bc28-41c2-bd1b-d9d1e075e4a9" />
+
+*Pong with the ball after scoring, turning pink and leaving the screen*
+
+
+
+
+
