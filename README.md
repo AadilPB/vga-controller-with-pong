@@ -22,6 +22,9 @@ The Video Graphics Array (VGA) standard defines the timing parameters needed for
 | Back Porch | 48 pixels | 33 lines |
 | **Total** | **800 pixels** | **525 lines** |
 
+<img width="1297" height="836" alt="image" src="https://github.com/user-attachments/assets/0d649c52-3e71-46dd-a51b-0a6ee1ef4511" />
+
+*VGA 640x480 frame layout, the front porches, sync pulses and back porches make up the blanking region, which extends the frame to 800x525*
 
 To display an image on a monitor, the VGA controller must drive a pixel clock that determines how fast the pixels are written to the screen, based on the display resolution and refresh rate. The FPGA operates on an onboard clock, independent of any display standard, requiring a pixel clock of the right frequency to drive a VGA display derived from the FPGA clock. To find the required pixel clock frequency we use the following formula:
 
@@ -30,7 +33,7 @@ $$800 \times 525 \times 60 = 25,200,000 Hz \approx 25\ MHz$$
 
 Where the total pixel count represents every pixel the controller must clock through in a single frame, including both the active display and blanking regions, multiplied by the refresh rate, which provides the number of pixels that must be driven per second. As the Spartan-3E runs at 50 MHz, this is achieved through a clock divider, which divides the onboard clock by toggling on every rising edge of the 50 MHz FPGA clock, producing a 25 MHz pixel clock. 
 
-
+The game of pong features two types of elements, static and dynamic. Static elements can be drawn 
 ## Architecture
 
 ## Results
